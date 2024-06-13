@@ -1,0 +1,999 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.boxh img{
+margin-left: 150px;
+}
+.hod img{
+    margin-left: 170px;
+    margin-top: -16px;
+    max-width: 1000px;
+    }
+.bond img{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.fam img{
+    max-width: 700px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+/* .fam h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+    color: red;
+    text-align: center;
+}
+.fam span{
+    color: black;
+} */
+nav{
+    background-color: black;
+    /* margin-left: 160px;
+    margin-right: 100px; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+    margin-left: 20px;
+}
+nav ul{
+    padding: 15px;
+    margin-left: 50px;
+}
+
+#headline .com{
+    background-image: url(../images/LAFARGE-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    width: 90%;
+    height: 65vh;
+    justify-content: center;
+    position: relative;
+}
+
+
+.headoverlay{
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.headcontent{
+    position: absolute;
+}
+
+#headline .com h4{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+#headline .com h4 a{
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#headline .com h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#headline .com h6{
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+#headline .com p{
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+
+#headline .com button{
+    background-color: brown;
+    margin-left: 50%;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 210px;
+}
+#headline .com button a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+#headline .btndiv{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.body .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body .container p{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.body .container h4 a{
+    text-decoration: none;
+    padding: 10px 10px; 
+    color: white;
+    margin: 5px;
+}
+.body .container h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* .body .container .box1 h4{
+    align-items: center;
+    margin-top: 20px;
+} */
+.body .container a{
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+body{
+    margin: 0;
+}
+.body .container button{
+    background-color: brown;
+    margin: 3px;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 50px;
+}
+.body .container button a{
+    text-decoration: none;
+}
+
+.body .container .box1{
+    background-image: url(../images/LAFARGE-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.box1overlay{
+    width: 420px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.box1content{
+    position: absolute;
+}
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .body .container .box1, .box2, .box3{
+        width: 450px;
+        height: 200px;
+    }
+    .body .container .box2{
+        margin-top: 230px;
+        margin-left: -450px;
+    }
+    .body .container .box3{
+        margin-top: 460px;
+        margin-left: -450px;
+    }
+}
+
+.body .container .box2{
+    background-image: url(../images/Debt-Capital-Market.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.box2overlay{
+    width: 420px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.box2content{
+    position: absolute;
+}
+.body .container .box3{
+    background-image: url(../images/cbmn-e1694800878355.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.box3overlay{
+    width: 420px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.box3content{
+    position: absolute;
+}
+
+.stories h3{
+    text-align: center;
+}
+
+.stories .box1{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box1 .story1{
+        height: 200px;
+        width: 450px;
+    }
+    .stories .box1 .story11{
+        margin-top: 470px;
+        margin-left: -300px;
+    }
+
+
+}
+.stories .box1 .story1 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box1 .story1 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box1 .story1 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* .stories .box1 .story11 img{
+    height: 296px;
+    width: 491px;
+} */
+.stories .box2{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box2 .story2{
+        height: 200px;
+        width: 450px;
+        /* margin-top: 100px; */
+    }
+    .stories .box2 .story22{
+        margin-top: 400px;
+        margin-left: -300px;
+    }
+}
+.stories .box2 .story2 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box2 .story2 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box2 .story2 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.stories .box3{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box3 .story3{
+        height: 200px;
+        width: 450px;
+        margin-top: 2000px;
+        display: none;
+    }
+    .stories .box3 .story33{
+        margin-top: 750px;
+        margin-left: -300px;
+    }
+
+    .stories .box3 .story3 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+}
+.stories .box3 .story3 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box3 .story3 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box3 .story3 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.stories .box3 .story33 img{
+    width: 491px;
+    height: 296px;
+}
+
+.stories .box4{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box4 .story4{
+        height: 200px;
+        width: 450px;
+    }
+    .stories .box4 .story44{
+        margin-top: 1000px;
+        margin-left: -300px;
+    }
+}
+.stories .box4 .story4 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box4 .story4 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box4 .story4 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.stories .box4 .story44 img{
+    width: 491px;
+    height: 296px;
+}
+.stories .box5{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box5 .story5{
+        height: 200px;
+        width: 450px;
+    }
+    .stories .box5 .story55{
+        margin-top: 1250px;
+        margin-left: -300px;
+    }
+}
+.stories .box5 .story5 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box5 .story5 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box5 .story5 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.stories .box5 .story55 img{
+    width: 491px;
+    height: 296px;
+}
+.stories .box6{
+    display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .stories .box6 .story6 {
+        height: 200px;
+        width: 450px;
+    }
+    .stories .box6 .story66{
+        margin-top: 1500px;
+        margin-left: -300px;
+    }
+}
+.stories .box6 .story6 h4 a{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.stories .box6 .story6 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.stories .box6 .story6 h2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.stories .box6 .story66 img{
+    width: 491px;
+    height: 296px;
+}
+.stories p{
+    padding: 0px 30px 0px 0px;
+}
+.stories h5 a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-style: normal;
+    padding: 10px;
+}
+.stories h5 a:hover{
+    color: blue;
+}
+
+.eco h3{
+    text-align: center;
+    margin-top: 100px;
+}
+.eco .cont1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.eco .cont1 .box{
+    margin: 5px;
+}
+.eco .cont1 img{
+    width: 400px;
+    height: 200px;
+}
+.eco h4:hover{
+    color: red;
+    text-decoration: underline;
+}
+.eco .cont2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.eco .cont2 .box{
+    margin: 5px;
+}
+.eco .cont2 img{
+    width: 400px;
+    height: 200px;
+}
+
+.market h3{
+    text-align: center;
+    margin-top: 100px;
+}
+.market .cont1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.market .cont1 .box{
+    margin: 5px;
+}
+.market .cont1 img{
+    width: 420px;
+    height: 200px;
+}
+.market h4:hover{
+    color: red;
+    text-decoration: underline;
+}
+.market .cont2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.market .cont2 .box{
+    margin: 5px;
+}
+.market .cont2 img{
+    width: 400px;
+    height: 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 80vh
+}
+footer .contain{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+footer .contain .box h2{
+    font-size: 18px;
+    align-items: center;
+    margin-left: 45px;
+}
+
+footer .box .lightblack{
+    background-color: rgb(36, 35, 35);
+    padding: 10px;
+    height: 58vh;
+    width: 300px;
+}
+footer .core{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .core .boy h4{
+   margin-left: 40px;
+}
+footer h4 a{
+    text-decoration: none;
+    color: white;
+}
+footer h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* footer ul li{
+    list-style-type: none;
+    margin-left: -40px
+} */
+/* footer p{
+    margin-left: -40px;
+} */
+.appoint h3{
+    text-align: center;
+}
+.appoint .container{
+    display: flex;
+    /* width: 1200px; */
+    justify-content: space-between;
+    margin: 10px;
+}
+.appoint .container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.appoint .container p{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.appoint .container h4 a{
+    text-decoration: none;
+    padding: 10px 10px; 
+    color: white;
+    margin: 6px;
+}
+.appoint .container h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.appoint .container2 p{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.appoint .container2 h4 a{
+    text-decoration: none;
+    padding: 10px 10px; 
+    color: white;
+    margin: 6px;
+}
+.appoint .container2 h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.appoint .container .cont1{
+    background-image: url(../images/Transcorp-Nigeria-Board-Owen-Omoghiafo-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.cont1overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.cont1content{
+    position: absolute;
+}
+.appoint .container .cont2{
+    background-image: url(../images/blog-default-min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.cont2overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.cont2content{
+    position: absolute;
+}
+.appoint .container .cont3{
+    background-image: url(../images/Oguntokun-932x1024-new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.cont3overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.cont3content{
+    position: absolute;
+}
+
+.appoint .container2 .con1{
+    background-image: url(../images/Zenith-Bank-Award-Presentation-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.con1overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.con1content{
+    position: absolute;
+}
+
+.appoint .container2 .con2{
+    background-image: url(../images/MG_0996-370x280-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.con2overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.con2content{
+    position: absolute;
+}
+
+.appoint .container2 .con3{
+    background-image: url(../images/1711485237186.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.con3overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.con3content{
+    position: absolute;
+}
+
+.appoint .container a{
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.appoint .container button{
+    background-color: rgb(192, 23, 23);
+    margin: 3px;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 50px;
+}
+.appoint .container button a{
+    text-decoration: none;
+}
+
+.appoint .container2 a{
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.appoint .container2 button{
+    background-color: rgb(192, 23, 23);
+    margin: 3px;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 50px;
+}
+.appoint .container2 button a{
+    text-decoration: none;
+}
+
+.invest .investor{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.invest h3{
+    text-align: center;
+}
+.invest .investor .invest1{
+    background-image: url(../images/Transcorp-Nigeria-Board-Owen-Omoghiafo-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+.inv1overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv1content{
+    position: absolute;
+}
+.invest .investor .invest2{
+    background-image: url(../images/blog-default-min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+.inv2overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv2content{
+    position: absolute;
+}
+.invest .investor .invest3{
+    background-image: url(../images/Oguntokun-932x1024-new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+    margin: 5px;
+}
+.inv3overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv3content{
+    position: absolute;
+}
+.invest .investor .invest4{
+    background-image: url(../images/Zenith-Bank-Award-Presentation-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    position: relative;
+    margin: 5px;
+}
+.inv4overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv4content{
+    position: absolute;
+}
+.invest .investor button a{
+    color: white;
+    padding: 5px;
+    
+}
+.invest .investor h4 a{
+    color: black;
+    text-decoration: none;
+}
+.invest .investor h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.invest .investor button{
+    background-color: rgb(192, 23, 23);
+    margin: 3px;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 165px;
+}
+.invest .investor button a{
+    text-decoration: none;
+}
+
+.invest .investor2{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.invest .investor2{
+    margin-top: 130px;
+
+}
+
+.invest .investor2 .invest11{
+    background-image: url(../images/MG_0996-370x280-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+.inv11overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv11content{
+    position: absolute;
+}
+.invest .investor2 .invest22{
+    background-image: url(../images/1711485237186.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: 420px;
+    height: 200px;
+    position: relative;
+}
+.inv22overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv22content{
+    position: absolute;
+}
+.invest .investor2 .invest33{
+    background-image: url(../images/Phoebe-1024x588-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+.inv33overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv33content{
+    position: absolute;
+}
+.invest .investor2 .invest44{
+    background-image: url(../images/Dangote-sugar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+.inv44overlay{
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.inv44content{
+    position: absolute;
+}
+.invest .investor2 button a{
+    color: white;
+    padding: 5px;
+    
+}
+.invest .investor2 h4 a{
+    color: black;
+    text-decoration: none;
+}
+.invest .investor2 h4 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.invest .investor2 button{
+    background-color: rgb(192, 23, 23);
+    margin: 3px;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 165px;
+}
+.invest .investor2 button a{
+    text-decoration: none;
+}
+
+
